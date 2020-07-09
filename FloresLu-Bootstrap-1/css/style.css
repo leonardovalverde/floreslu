@@ -1,0 +1,199 @@
+/* Reset */
+
+body, h1, h2, h3, p, ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: #fbc1bc;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Menu */
+
+.menu {
+    background: #233567
+}
+
+.menu-nav ul li{
+    list-style: none;
+}
+
+.menu-nav ul li a {
+    text-decoration: none;
+    color: #fbc1bc;
+    font-size: 1.125em;
+}
+
+
+/* Intro */
+
+.intro{
+    background: url(../img/bg-intro.jpg) no-repeat center center;
+    background-size: cover;
+    color: #233567;
+}
+
+.intro h1{
+    text-transform: uppercase;
+    font-size: 2.4em;
+}
+
+.intro h1::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #233567;
+    margin: 10px auto;
+}
+
+.intro p{
+    font-style: italic;
+    font-size: 1.125em;
+}
+
+/* Sobre */
+
+.sobre h2{
+    color: #233567;
+    font-size: 2.25em;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sobre-item h3{
+    font-size: 2.25em;
+    line-height: 1em;
+    background: #233567;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.sobre > p{
+    font-size: 1.25em;
+    line-height: 1.4em;
+    font-style: italic;
+    color: #233567;
+}
+
+/* Produtos */
+
+.produtos {
+    background: #315b96;
+    border-top: 3px solid #fbc1bc;
+    border-bottom: 3px solid #fbc1bc;
+}
+
+.produtos-item h2{
+    font-size: 2.25em;
+    text-align: center;
+}
+
+.produtos-item h2::before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fbc1bc;
+    border: 5px solid #233567;
+    box-shadow: 0 0 0 5px #ffdfdf;
+}
+
+.produtos-item p{
+    font-size: 0.875em;
+    line-height: 1.4em;
+}
+
+.produtos-btn{
+    border: 3px solid #ffdfdf;
+    color: #fbc1bc;
+    text-decoration: none;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Locais */
+
+.locais-item h2{
+    font-size: 2.25em;
+    color: #315b96;
+}
+
+.locais-item p{
+    font-size: 1.125em;
+    line-height: 1.4em;
+    color: #233567;
+    max-width: 320px;
+    margin-bottom: 40px;
+}
+
+.locais-item a{
+    font-size: 1.125em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 3px solid #315b96;
+    color: #fbc1bc;
+}
+
+/* Assine */
+
+.assine{
+    background: #fbc1bc;
+    color: #233567;
+}
+
+.assine-info h2{
+    font-size: 2.25em;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.assine-info p{
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.assine form label {
+    display: none;
+}
+
+.assine input{
+    border: 3px solid #233567;
+    background: none;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.assine button{
+    background: #ffdfdf;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #233567;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer{
+    background: #233567;
+}
+
+.footer p{
+    font-size: 1.125em;
+    line-height: 1.4em;
+}
+
+
